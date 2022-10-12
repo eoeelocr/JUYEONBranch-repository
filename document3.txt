@@ -1,4 +1,4 @@
-a = 8
+a = 10
 for i in range(a):
 	if i < (a//2):
 		for x in range(a-i):
@@ -18,5 +18,6 @@ for i in range(a):
 		for x in range(i*2+1 - a):
 			print("*", end = "")
 	print(
+
 			
 				

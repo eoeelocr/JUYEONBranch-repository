@@ -1,0 +1,8 @@
+
+print("HELLO WORLD!")
+
+print("my name is hello")
+
+print("my age is hello")
+
+print("my school is hello")

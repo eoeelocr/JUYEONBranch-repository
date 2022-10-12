@@ -1,17 +1,8 @@
-def partition(l, r, nums):
-    pivot, ptr = nums[r], l
-    for i in range(l, r):
-        if nums[i] <= pivot:
-            nums[i], nums[ptr] = nums[ptr], nums[i]
-            ptr += 1
-    nums[ptr], nums[r] = nums[r], nums[ptr]
-    return ptr
- 
- 
-example = [4, 6, 7, 0, 4]
-result = [1, 2, 3, 4, 5]
-print(quicksort(0, len(example)-1, example))
 
 print("HELLO WORLD!")
 
 print("my name is hello")
+
+for i in range(8):
+	print(" " * (7-i), end = ")
+	print("*" * (2*i+1))
